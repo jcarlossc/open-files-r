@@ -144,7 +144,33 @@ head(arquivo_xml)
 
 #-------------------------------------------------
 
+# ARQUIVOS HTML.
 
+# Um arquivo HTML é um ficheiro de texto que contém a linguagem 
+# de marcação de hipertexto (HTML), usada para criar a estrutura 
+# de páginas web, organizando conteúdo como texto, imagens e 
+# vídeos com o uso de "tags". Estes ficheiros possuem as 
+# extensões .html ou .htm e são visualizados através de um 
+# navegador web, que interpreta o código para apresentar a página. 
+
+# A função read_html() precisa ser instalada, no console: 
+# install.packages("rvest")
+
+# A função read_html() pode precisar de parâmetros.
+
+# Para mais informações sobre a função read_html(), retire o cerquilha e
+# execute o comando:
+# ?read_html()
+
+# Esta função chama a biblioteca:
+library(rvest)
+
+pagina <- read_html("files/vendas.html")
+
+arquivo_html <- html_table(pagina)[[1]]
+
+# Apresenta os primeiros registros do arquivo.
+head(arquivo_html)
 
 
 
