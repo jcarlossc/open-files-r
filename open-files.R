@@ -114,3 +114,37 @@ head(arquivo_json)
 
 #-------------------------------------------------
 
+# ARQUIVO XML.
+
+# Um arquivo XML (Extensible Markup Language) é um formato de 
+# texto usado para armazenar e transportar dados de forma 
+# organizada e legível, tanto para humanos quanto para computadores, 
+# através de etiquetas que definem o significado e a estrutura 
+# da informação. No Brasil, é amplamente utilizado em documentos 
+# fiscais eletrônicos, como a Nota Fiscal Eletrônica (NF-e), 
+# sendo a versão digital oficial do documento e obrigatória 
+# para arquivamento por cinco anos.
+
+# A função xmlToDataFrame() precisa ser instalada, no console: 
+# install.packages("XML")
+
+# A função xmlToDataFrame() pode precisar de parâmetros.
+
+# Para mais informações sobre a função xmlToDataFrame(), retire o cerquilha e
+# execute o comando:
+# ?xmlToDataFrame()
+
+# Esta função chama a biblioteca:
+library(XML)
+
+arquivo_xml <- xmlToDataFrame("files/vendas.xml")
+
+# Apresenta os primeiros registros do arquivo.
+head(arquivo_xml)
+
+#-------------------------------------------------
+
+
+
+
+
