@@ -1,0 +1,42 @@
+[
+    {
+        "ID": 1,
+        "Produto": "Caderno",
+        "Categoria": "Papelaria",
+        "Preco": 12.5,
+        "Quantidade": 10,
+        "Data": "2023-01-10"
+    },
+    {
+        "ID": 2,
+        "Produto": "Caneta",
+        "Categoria": "Papelaria",
+        "Preco": 2.3,
+        "Quantidade": 50,
+        "Data": "2023-01-11"
+    },
+    {
+        "ID": 3,
+        "Produto": "Mochila",
+        "Categoria": "Acessorio",
+        "Preco": 89.9,
+        "Quantidade": 5,
+        "Data": "2023-01-15"
+    },
+    {
+        "ID": 4,
+        "Produto": "Mouse",
+        "Categoria": "Eletronico",
+        "Preco": 45.0,
+        "Quantidade": 7,
+        "Data": "2023-01-18"
+    },
+    {
+        "ID": 5,
+        "Produto": "Teclado",
+        "Categoria": "Eletronico",
+        "Preco": 75.5,
+        "Quantidade": 3,
+        "Data": "2023-01-20"
+    }
+]
