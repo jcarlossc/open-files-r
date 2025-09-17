@@ -1,5 +1,6 @@
 # Estudo sobre abertura de diversos formatos de arquivo 
-# com a linguagem R e a IDE RStudio.
+# com a linguagem R e a IDE RStudio. Observação: os arquivos 
+# estão no diretório files.
 
 # ARQUIVO CSV.
 
@@ -64,16 +65,16 @@ head(arquivo_tsv)
 # Microsoft Excel ou programas gratuitos como Google 
 # Sheets e LibreOffice Calc.
 
+# A função read_excel() precisa ser instalada, no console: 
+# install.packages("readxl")
+
 # A função read_excel() pode precisar de parâmetros.
 
 # Para mais informações sobre a função read_excel(), retire o cerquilha e
 # execute o comando:
 # ?read_excel()
 
-# A função read_excel() precisa ser instalada, no console: 
-# install.packages("readxl")
-
-# Está função chama a biblioteca:
+# Esta função chama a biblioteca:
 library(readxl)
 
 arquivo_excel <- read_excel("files/vendas.xlsx")
@@ -83,4 +84,33 @@ head(arquivo_excel)
 
 #-------------------------------------------------
 
+# ARQUIVO JSON.
+
+# Um arquivo JSON (JavaScript Object Notation) é um formato 
+# de texto leve e fácil de ler que armazena e transporta dados, 
+# usando pares de "chave-valor" em uma estrutura organizada. 
+# Ele é amplamente utilizado para enviar informações entre 
+# um servidor web e um aplicativo, servindo como uma alternativa 
+# mais eficiente ao XML. Um arquivo JSON pode ser aberto e 
+# interpretado por humanos e máquinas, e é independente de 
+# linguagem de programação, embora derive sua sintaxe de JavaScript. 
+
+# A função fromJSON() precisa ser instalada, no console: 
+# install.packages("jsonlite")
+
+# A função fromJSON() pode precisar de parâmetros.
+
+# Para mais informações sobre a função fromJSON(), retire o cerquilha e
+# execute o comando:
+# ?fromJSON()
+
+# Esta função chama a biblioteca:
+library(jsonlite)
+
+arquivo_json <- fromJSON("files/vendas.json")
+
+# Apresenta os primeiros registros do arquivo.
+head(arquivo_json)
+
+#-------------------------------------------------
 
