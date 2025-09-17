@@ -1,3 +1,6 @@
+# Ignorar arquivos gerados automaticamente
+*.html linguist-generated
+
 # Forçar GitHub Linguist a reconhecer como R
 *.R linguist-language=R
 *.r linguist-language=R
