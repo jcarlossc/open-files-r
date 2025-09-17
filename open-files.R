@@ -54,3 +54,33 @@ head(arquivo_tsv)
 
 #-------------------------------------------------
 
+# ARQUIVO XLSX.
+
+# Um arquivo .xlsx é um documento de planilha eletrónica 
+# criado pela Microsoft Excel a partir do Excel 2007, que 
+# armazena dados organizados em folhas de cálculo, gráficos 
+# e formatação, sendo um formato mais moderno e seguro do 
+# que o antigo .xls. Pode ser aberto e editado com o 
+# Microsoft Excel ou programas gratuitos como Google 
+# Sheets e LibreOffice Calc.
+
+# A função read_excel() pode precisar de parâmetros.
+
+# Para mais informações sobre a função read_excel(), retire o cerquilha e
+# execute o comando:
+# ?read_excel()
+
+# A função read_excel() precisa ser instalada, no console: 
+# install.packages("readxl")
+
+# Está função chama a biblioteca:
+library(readxl)
+
+arquivo_excel <- read_excel("files/vendas.xlsx")
+
+# Apresenta os primeiros registros do arquivo.
+head(arquivo_excel)
+
+#-------------------------------------------------
+
+
