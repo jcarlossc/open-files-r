@@ -37,8 +37,8 @@ head(arquivo_csv)
 # importar e exportar dados entre diferentes aplicações, 
 #como planilhas eletrônicas e bancos de dados.
 
-# A função read.csv() pode precisar de parâmetros, por exemplos:
-# sep="" - arquivo csv separado por ponto e vírgula.
+# A função read.tsv() pode precisar de parâmetros, por exemplos:
+# sep="" - arquivo tsv separado por ponto e vírgula.
 # header=TRUE ou header=FALSE - os nomes das colunas ou  não, respectivamente.
 # dec="," - O caractere usado para os pontos decimais. O padrão é o ponto (.). 
 # Entre outros...
