@@ -7,7 +7,6 @@ Este repositório contém exemplos práticos em **R** para abertura e manipulaç
    - CSV
    - TSV
    - Excel
-   - TXT
    - JSON
    - XML
    - Web (tabelas em páginas HTML)
@@ -93,3 +92,4 @@ Este projeto está licenciado sob a MIT License.
 📌GitHub: https://github.com/jcarlossc<br>
 📌Kaggle: https://www.kaggle.com/jcarlossc/  
 📌Twitter/X: https://x.com/jcarlossc1977
+
